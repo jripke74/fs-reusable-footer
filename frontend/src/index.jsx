@@ -1,3 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faThumbsUp } from '@fortawesome/free-solid-svg-icons';
+import { faTruck } from '@fortawesome/free-solid-svg-icons';
+import { faCircleUser } from '@fortawesome/free-solid-svg-icons';
+
 export const Footer = () => {
   return (
     <>
@@ -25,6 +30,12 @@ export const Footer = () => {
           <li>
             <a href="#">Jobs</a>
           </li>
+        </ul>
+        <p>&copy; Ripke Enterprise Inc.</p>
+        <ul>
+          <li><a href="#"><FontAwesomeIcon icon={faThumbsUp} className="fa-fw" /></a></li>
+          <li><a href="#"><FontAwesomeIcon icon={faTruck} className="fa-fw" /></a></li>
+          <li><a href="#"><FontAwesomeIcon icon={faCircleUser} className="fa-fw" /></a></li>
         </ul>
       </footer>
     </>
