@@ -1,11 +1,10 @@
-import './App.css'
+import "./App.css";
+import { Footer } from "./index.jsx";
 
 function App() {
-  return (
-    <>
-      
-    </>
-  )
+  return <>
+    <Footer />
+  </>;
 }
 
-export default App
+export default App;
